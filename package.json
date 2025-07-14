@@ -1,0 +1,25 @@
+{
+  "name": "caselyjs",
+  "version": "0.0.1",
+  "description": "A tool for renaming files and folders in a efficient way",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "rename": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ninja-Vikash/renamejs.git"
+  },
+  "keywords": [
+    "caselyjs",
+    "easy-rename-files",
+    "simple-renamer-tool"
+  ],
+  "author": "ninja-vikash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ninja-Vikash/renamejs/issues"
+  },
+  "homepage": "https://github.com/Ninja-Vikash/renamejs#readme"
+}
