@@ -12,9 +12,12 @@
     "url": "git+https://github.com/Ninja-Vikash/renamejs.git"
   },
   "keywords": [
-    "caselyjs",
-    "easy-rename-files",
-    "simple-renamer-tool"
+    "rename",
+    "case",
+    "utility",
+    "file-renamer",
+    "casely",
+    "case-converter"
   ],
   "author": "ninja-vikash",
   "license": "MIT",

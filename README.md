@@ -18,7 +18,7 @@ npm install renamejs
 
 ```js
 // index.js
-import { rename } from 'renamejs';
+import { rename } from 'caselyjs';
 
 rename.config({
   path: 'src'
