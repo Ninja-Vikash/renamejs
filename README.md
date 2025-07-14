@@ -9,7 +9,7 @@
 ## 📦 Installation
 
 ```bash
-npm install renamejs
+npm install caselyjs
 ```
 
 ## 🚀 Usage
