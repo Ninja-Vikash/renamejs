@@ -14,7 +14,7 @@ npm install caselyjs
 
 ## 🚀 Usage
 
-### Minimum setup you need to start with `renamejs`
+### Minimum setup you need to start with `caselyjs`
 
 ```js
 // index.js
