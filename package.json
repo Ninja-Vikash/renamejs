@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ninja-Vikash/renamejs.git"
+    "url": "git+https://github.com/Ninja-Vikash/caselyjs.git"
   },
   "keywords": [
     "rename",
@@ -22,7 +22,7 @@
   "author": "ninja-vikash",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Ninja-Vikash/renamejs/issues"
+    "url": "https://github.com/Ninja-Vikash/caselyjs/issues"
   },
-  "homepage": "https://github.com/Ninja-Vikash/renamejs#readme"
+  "homepage": "https://github.com/Ninja-Vikash/caselyjs#readme"
 }
