@@ -15,7 +15,7 @@ let defaultConfig = {
 
 // -------------------------------------------------
 
-export const rename = {
+export const casely = {
   config(options = {}) {
     defaultConfig = {
       ...defaultConfig,

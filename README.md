@@ -1,6 +1,6 @@
 # 🛠️ caselyjs
 
-**renamejs** is a CLI and programmatic tool that helps you **rename files and folders** in bulk using a consistent naming convention like `kebab-case`, `camelCase`, or `PascalCase`.
+**caselyjs** is a CLI and programmatic tool that helps you **rename files and folders** in bulk using a consistent naming convention like `kebab-case`, `camelCase`, or `PascalCase`.
 
 > Say goodbye to manually renaming 100+ files in your project!
 
@@ -18,13 +18,13 @@ npm install caselyjs
 
 ```js
 // index.js
-import { rename } from 'caselyjs';
+import { casely } from 'caselyjs';
 
-rename.config({
+casely.config({
   path: 'src'
 });
 
-rename.execute();
+casely.execute();
 ```
 
 ## ⚙️ Config Options
@@ -32,7 +32,7 @@ rename.execute();
 ### Default Options
 
 ```js
-rename.config({
+casely.config({
   path: 'src',
   case: 'kebab',
   file: ['js', 'jsx'],
@@ -48,7 +48,7 @@ rename.config({
 > default file extensions `['js', 'jsx']`, can include more extenstion in the array.\
 > eg.
 > ```js
-> rename.config({
+> casely.config({
 >  // ...previous
 >   file: ['js', 'jsx', 'ts', 'tsx']
 > })
