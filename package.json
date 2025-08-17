@@ -1,6 +1,6 @@
 {
   "name": "caselyjs",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "A minimal renaming tool for setting an uniform naming convetion accross all files, capable of renaming 100+ files in one go.",
   "main": "index.js",
   "type": "module",
