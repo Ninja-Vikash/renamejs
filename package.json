@@ -1,7 +1,7 @@
 {
   "name": "caselyjs",
   "version": "0.0.6",
-  "description": "A tool for renaming files and folders in a efficient way",
+  "description": "A minimal renaming tool for setting an uniform naming convetion accross all files, capable of renaming 100+ files in one go.",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -9,20 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ninja-Vikash/caselyjs.git"
+    "url": "git+https://github.com/codezaura/caselyjs.git"
   },
   "keywords": [
-    "rename",
-    "case",
-    "utility",
-    "file-renamer",
-    "casely",
-    "case-converter"
+    "naming convention tool",
+    "file / folder renamer",
+    "case changer",
+    "kebab case to pascal case",
+    "pascal case to camel case",
+    "came case to kebab case"
   ],
-  "author": "ninja-vikash",
+  "author": "codezaura",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Ninja-Vikash/caselyjs/issues"
+    "url": "https://github.com/codezaura/caselyjs/issues"
   },
-  "homepage": "https://github.com/Ninja-Vikash/caselyjs#readme"
+  "homepage": "https://github.com/codezaura/caselyjs#readme"
 }
