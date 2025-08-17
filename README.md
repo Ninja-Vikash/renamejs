@@ -58,4 +58,4 @@ casely.config({
 > full will allow you to rename folders too.
 
 ### Author
-**Made with ❤️ by Ninja-Vikash**
+**Made with ❤️ by codezaura**
