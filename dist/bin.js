@@ -17,6 +17,7 @@ program
     .option("-e, --ext <extensions>", "Comma separated extensions", "js,jsx,ts,tsx")
     .option("-f, --full", "Rename directories as well", false)
     .option("--dry", "Dry run (show changes without applying)", false)
+    .option("--no-rewrite", "Skip updating import/require paths", false)
     .action(async (path, options) => {
     console.log(chalk_1.default.blue.bold(`\n🚀 CaselyJS starting in ${path}...`));
     index_1.casely.config({
@@ -25,6 +26,7 @@ program
         file: options.ext.split(","),
         operate: options.full ? "full" : "partial",
         dryRun: options.dry,
+        rewriteImports: !options.noRewrite,
     });
     console.log(`\n[CONFIG] { path: '${path}',  case: '${options.case}', operate: '${options.full ? "full" : "partial"}' }\n`);
     await index_1.casely.execute();

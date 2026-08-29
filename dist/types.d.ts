@@ -6,4 +6,5 @@ export interface CaselyConfig {
     case: CaseType;
     operate: OperationMode;
     dryRun?: boolean;
+    rewriteImports?: boolean;
 }

@@ -18,6 +18,7 @@ program
   )
   .option("-f, --full", "Rename directories as well", false)
   .option("--dry", "Dry run (show changes without applying)", false)
+  .option("--no-rewrite", "Skip updating import/require paths", false)
   .action(async (path, options) => {
     console.log(chalk.blue.bold(`\n🚀 CaselyJS starting in ${path}...`));
 
@@ -27,6 +28,7 @@ program
       file: options.ext.split(","),
       operate: options.full ? "full" : "partial",
       dryRun: options.dry,
+      rewriteImports: !options.noRewrite,
     });
 
     console.log(
