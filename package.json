@@ -2,12 +2,13 @@
   "name": "caselyjs",
   "version": "1.0.4",
   "author": "thatonevikash",
-  "description": "Rename codebase files and directories with ease",
+  "description": "Powerful CLI to bulk rename files and directories across your codebase with kebab, camel, or Pascal case. Fast, simple, and easy to use.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thatonevikash/caselyjs.git"
   },
   "keywords": [
+    "codebase renamer",
     "naming convention tool",
     "file / folder renamer",
     "case changer",
@@ -39,8 +40,8 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "chalk": "^5.3.0",
-    "commander": "^11.0.0"
+    "chalk": "^6.0.0",
+    "commander": "^15.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.19.39",
