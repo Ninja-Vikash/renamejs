@@ -6,7 +6,7 @@
   <h1>Caselyjs - CLI</h1>
 </div>
 
-Tired of Codebases with Mismatched File Casing?🛠️ Meet `CaselyJS (v1.0.1)`
+Tired of Codebases with Mismatched File Casing?🛠️ Meet `caselyjs`
 
 <div>
 <b>caselyjs</> is a high-performance TypeScript-powered CLI and programmatic utility designed to <b>rename files and directories</b> across your entire codebase using consistent naming conventions.</b>
@@ -15,7 +15,7 @@ Tired of Codebases with Mismatched File Casing?🛠️ Meet `CaselyJS (v1.0.1)`
 > <i>Say goodbye to manually renaming 100+ files in your project!</i>
 </div>
 
-## ✨ New in v1.0
+## ✨ New in `v1` and above
 
 - **Native TypeScript Support**: Full type definitions included.
 - **Powerful CLI**: Run transformations directly from your terminal.
@@ -39,6 +39,7 @@ npx caselyjs ./my-project --dry
 ```
 
 > [!IMPORTANT]
+>
 > ```bash
 > # safe command before executing
 > npx caselyjs --dry
@@ -97,6 +98,7 @@ await casely.execute();
 - **Chalk** - Beautifully colored terminal output.
 
 ### 🌐 Links
+
 - [dev.to](https://dev.to/thatonevikash/tired-of-codebases-with-mismatched-file-casing-meet-caselyjs-v101-479n)
 
 ### 👨‍💻 Author
