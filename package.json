@@ -1,6 +1,6 @@
 {
   "name": "caselyjs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "thatonevikash",
   "description": "Powerful CLI to bulk rename files and directories across your codebase with kebab, camel, or Pascal case. Fast, simple, and easy to use.",
   "repository": {
