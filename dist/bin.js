@@ -26,6 +26,7 @@ program
         operate: options.full ? "full" : "partial",
         dryRun: options.dry,
     });
+    console.log(`\n[CONFIG] { path: '${path}',  case: '${options.case}', operate: '${options.full ? "full" : "partial"}' }\n`);
     await index_1.casely.execute();
     console.log(chalk_1.default.green.bold("\n✨ Casing transformation complete!"));
 });

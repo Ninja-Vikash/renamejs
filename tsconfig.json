@@ -6,7 +6,7 @@
     "allowSyntheticDefaultImports": true,
 
     "moduleResolution": "nodenext",
-    "lib": ["ES2022"],
+    "lib": ["ES2022", "DOM"],
     "declaration": true /* Generates .d.ts files for your library users */,
     "sourceMap": true /* Helps with debugging */,
 

@@ -29,6 +29,10 @@ program
       dryRun: options.dry,
     });
 
+    console.log(
+      `\n[CONFIG] { path: '${path}',  case: '${options.case}', operate: '${options.full ? "full" : "partial"}' }\n`,
+    );
+
     await casely.execute();
     console.log(chalk.green.bold("\n✨ Casing transformation complete!"));
   });
