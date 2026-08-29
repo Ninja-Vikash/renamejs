@@ -55,12 +55,35 @@ npx caselyjs ./my-project --dry
 
 ## ⚙️ CLI Options
 
-| Flag     | Shorthand | Description                                 | Default         |
-| :------- | :-------- | :------------------------------------------ | :-------------- |
-| `--case` | -c        | "Target case: camel, kebab, or pascal"      | kebab           |
-| `--ext`  | -e        | Comma-separated list of file extensions     | "js,jsx,ts,tsx" |
-| `--full` | -f        | Rename directories in addition to files     | false           |
-| `--dry`  |           | Show intended changes without applying them | false           |
+| Flag            | Shorthand | Description                                 | Default         |
+| :-------------- | :-------- | :------------------------------------------ | :-------------- |
+| `--case`        | -c        | "Target case: camel, kebab, or pascal"      | kebab           |
+| `--ext`         | -e        | Comma-separated list of file extensions     | "js,jsx,ts,tsx" |
+| `--full`        | -f        | Rename directories in addition to files     | false           |
+| `--dry`         |           | Show intended changes without applying them | false           |
+| `--no-rewrite`  |           | Skip updating import/require/export paths   | false           |
+
+## 🔗 Safe Refactoring
+
+CaselyJS automatically updates `import`, `require()`, `export ... from`, and dynamic `import()` paths when renaming files — so your project keeps working after a casing transformation.
+
+```bash
+# Rename files AND update all import paths
+npx caselyjs ./src --case kebab --full
+
+# Rename files but DON'T touch import paths
+npx caselyjs ./src --case kebab --no-rewrite
+```
+
+Programmatic usage:
+
+```ts
+casely.config({
+  path: "./src",
+  case: "kebab",
+  rewriteImports: true, // default — set false to skip
+});
+```
 
 ## 💻 Programmatic Usage
 
